@@ -1,4 +1,4 @@
-# `<progress-spinner>`
+# `<progress-spinner>` [![NPM](http://img.shields.io/npm/v/progress-spinner.svg)](https://www.npmjs.com/package/progress-spinner)
 
 > A simple, CSS-only indeterminate spinner custom element.
 
