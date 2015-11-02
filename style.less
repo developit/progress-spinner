@@ -1,0 +1,23 @@
+progress-spinner {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border: 0.1em solid rgba(0,0,0,0.8);
+	border-left-color: rgba(0,0,0,0.6);
+	border-bottom-color: rgba(0,0,0,0.4);
+	border-right-color: rgba(0,0,0,0.2);
+	border-radius: 50%;
+	animation: rotate 500ms linear infinite;
+	
+	&[dark] {
+		border-color: rgba(255,255,255,0.8);
+		border-left-color: rgba(255,255,255,0.6);
+		border-bottom-color: rgba(255,255,255,0.4);
+		border-right-color: rgba(255,255,255,0.2);
+	}
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
