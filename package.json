@@ -1,0 +1,25 @@
+{
+  "name": "progress-spinner",
+  "version": "1.0.0",
+  "description": "A simple, CSS-only indeterminate spinner custom element.",
+  "main": "style.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developit/progress-spinner.git"
+  },
+  "keywords": [
+    "spinner",
+    "loading",
+    "css",
+    "style"
+  ],
+  "author": "Jason Miller <jason@developit.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developit/progress-spinner/issues"
+  },
+  "homepage": "https://github.com/developit/progress-spinner#readme"
+}
