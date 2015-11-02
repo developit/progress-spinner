@@ -3,6 +3,31 @@
   <head>
     <title>progress-spinner element demo</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+		html {
+		  font: 16px/1.21 'Helvetica Neue', helvetica, arial;
+		  background: #EDEDF1;
+		  color: #777;
+		}
+		section {
+		  display: block;
+		  margin: 10px;
+		  padding: 10px;
+		  text-align: center;
+		  overflow: hidden;
+		}
+		section.dark {
+		  background: #404449;
+		  color: #BBB;
+		}
+		h4 {
+		  font-size: 140%;
+		  margin: 0;
+		  padding: 10px;
+		  letter-spacing: 0.05em;
+		  font-weight: 300;
+		}
+    </style>
   </head>
   <body>
     <section>
@@ -10,7 +35,7 @@
         <progress-spinner></progress-spinner>
     </section>
     
-    <section>
+    <section class="dark">
         <h4>&lt;progress-spinner dark&gt;</h4>
         <progress-spinner dark></progress-spinner>
     </section>
