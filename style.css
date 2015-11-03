@@ -2,19 +2,19 @@ progress-spinner {
   display: inline-block;
   width: 1em;
   height: 1em;
-  border: 0.1em solid rgba(0, 0, 0, 0.8);
-  border-left-color: rgba(0, 0, 0, 0.6);
-  border-bottom-color: rgba(0, 0, 0, 0.4);
-  border-right-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
-  -webkit-animation: rotate 500ms linear infinite;
-          animation: rotate 500ms linear infinite;
+  -webkit-animation: rotate 800ms linear infinite;
+          animation: rotate 800ms linear infinite;
 }
 progress-spinner[dark] {
-  border-color: rgba(255, 255, 255, 0.8);
-  border-left-color: rgba(255, 255, 255, 0.6);
-  border-bottom-color: rgba(255, 255, 255, 0.4);
-  border-right-color: rgba(255, 255, 255, 0.2);
+  border-top-color: rgba(255, 255, 255, 0.6);
+}
+progress-spinner[dotted] {
+  border-width: 0;
+  border-style: dotted;
+  border-top-width: 2px;
 }
 @-webkit-keyframes rotate {
   0% {
