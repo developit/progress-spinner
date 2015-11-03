@@ -4,7 +4,7 @@
 
 **Demo:** [codepen.io/developit/pen/xwJqeO](http://codepen.io/developit/pen/xwJqeO?editors=110)
 
-![preview](https://i.gyazo.com/7c5ba4c44c7b0f6bbbc2c355af61385f.gif)
+![preview](https://i.gyazo.com/444842e7b26bab5ca2255b6131c969ec.gif)
 
 ## Usage
 
