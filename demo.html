@@ -4,45 +4,62 @@
     <title>progress-spinner element demo</title>
     <link rel="stylesheet" href="style.css">
     <style>
-		html {
-		  font: 16px/1.21 'Helvetica Neue', helvetica, arial;
-		  background: #EDEDF1;
-		  color: #777;
-		}
-		section {
-		  display: block;
-		  margin: 10px;
-		  padding: 10px;
-		  text-align: center;
-		  overflow: hidden;
-		}
-		section.dark {
-		  background: #404449;
-		  color: #BBB;
-		}
-		h4 {
-		  font-size: 140%;
-		  margin: 0;
-		  padding: 10px;
-		  letter-spacing: 0.05em;
-		  font-weight: 300;
-		}
+  		html {
+  		  font: 16px/1.21 'Helvetica Neue', helvetica, arial;
+  		  background: #EDEDF1;
+  		  color: #777;
+  		}
+  		section {
+  		  display: block;
+  		  margin: 10px;
+  		  padding: 10px;
+  		  text-align: center;
+  		  overflow: hidden;
+  		}
+  		section.dark {
+  		  background: #404449;
+  		  color: #BBB;
+  		}
+  		h4 {
+  		  font-size: 140%;
+  		  margin: 0;
+  		  padding: 10px;
+  		  letter-spacing: 0.05em;
+  		  font-weight: 300;
+  		}
     </style>
   </head>
   <body>
     <section>
-        <h4>&lt;progress-spinner&gt;</h4>
-        <progress-spinner></progress-spinner>
+      <h4>&lt;progress-spinner&gt;</h4>
+      <progress-spinner></progress-spinner>
     </section>
     
     <section class="dark">
-        <h4>&lt;progress-spinner dark&gt;</h4>
-        <progress-spinner dark></progress-spinner>
+      <h4>&lt;progress-spinner dark&gt;</h4>
+      <progress-spinner dark></progress-spinner>
     </section>
     
     <section>
-        <h4>&lt;progress-spinner style="font-size:50px"&gt;</h4>
-        <progress-spinner style="font-size:50px"></progress-spinner>
+      <h4>&lt;progress-spinner style="font-size:50px"&gt;</h4>
+      <progress-spinner style="font-size:50px"></progress-spinner>
     </section>
-  </body>
+    
+    <h4>Dotted:</h4>
+    
+    <section>
+      <h4>&lt;progress-spinner&gt;</h4>
+      <progress-spinner dotted></progress-spinner>
+    </section>
+    
+    <section class="dark">
+      <h4>&lt;progress-spinner dark&gt;</h4>
+      <progress-spinner dotted dark></progress-spinner>
+    </section>
+    
+    <section>
+      <h4>&lt;progress-spinner style="font-size:50px"&gt;</h4>
+      <progress-spinner dotted style="font-size:50px"></progress-spinner>
+    </section>
+	</body>
 </html>
