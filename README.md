@@ -1,5 +1,7 @@
 # `<progress-spinner>` [![NPM](http://img.shields.io/npm/v/progress-spinner.svg)](https://www.npmjs.com/package/progress-spinner)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/progress-spinner.svg)](https://greenkeeper.io/)
+
 > A simple, CSS-only indeterminate spinner custom element.
 
 **Demo:** [codepen.io/developit/pen/xwJqeO](http://codepen.io/developit/pen/xwJqeO?editors=110)
